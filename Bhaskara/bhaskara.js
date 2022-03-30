@@ -17,8 +17,6 @@ function handleBtcalcular() {
     const vB = document.getElementById('vB').value
     const vC = document.getElementById('vC').value
     const raizes = baskara(vA,vB,vC)
-    document.getElementById('resultadoX1').innerHTML = raizes.valor_x1
-    document.getElementById('resultadoX2').innerHTML = raizes.valor_x2
     document.getElementById('resultado1').value = raizes.valor_x1
     document.getElementById('resultado2').value = raizes.valor_x2
 }
