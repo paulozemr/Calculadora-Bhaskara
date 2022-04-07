@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<main class="container">
+    <h1>Minha Checklist Diaria</h1>    
+    <div class="input e botão">
+            <input class="input" type="text" id="Afazeres" placeholder="Adicionar a tarefa afazer">
+            <button id="AddTask">Adicionar Tarefa</button>
+        </div>
+       <div class="ul"></div>
+        <ul>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="tarefa" class="task-item">Comer
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="tarefa" class="task-item">Se arrumar
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="tarefa" class="task-item">Pegar o onibus
+                    </label>
+                </div>
+            </li>
+        </ul>
+        
+        <footer>
+            <hr>
+            <em>Altere o título da sua lista de tarefas</em>
+            <input type="text" class="change-title" value="Minha Checklist Diaria">
+        </footer>
+    </div>
+
+</main> 
+    <script src="checklist.js"></script>
+</body>
+
+</html>

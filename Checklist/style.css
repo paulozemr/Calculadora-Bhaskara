@@ -1,0 +1,28 @@
+.container {
+    width: 20%;
+    margin: 20px auto 0px auto;
+
+}
+ul li {
+   list-style-type: square;
+
+}
+.input {        
+    border-radius: 10px;
+    padding: 10px;  
+    
+    }
+#AddTask {
+    width: 100px;
+    display: center;
+    margin: 5px 0px;
+    height: 50px;
+}
+.removed {
+    color: gray;
+}
+.removed label {
+    text-decoration: line-through;
+
+
+}
