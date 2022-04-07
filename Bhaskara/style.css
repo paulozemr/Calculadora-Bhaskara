@@ -1,5 +1,5 @@
-.main{
-    display: flex;
+.george{
+    display: flex  ;
     justify-content: center;
     align-items: center;
 }
@@ -8,24 +8,18 @@
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
-    height: 20vh;
-    width: 45%;
+    height: 30vh;
+    width: 32%;
     background-color: rgb(24, 95, 95);
     display: flex;
     flex-direction: column;
-}
-#georg{
-    color: blueviolet;
-    display: flex;
-
-
 }
 #Btcalcular{
     width: 100px;
     display: center;
     background-color: aquamarine;
     margin: 5px 0px;
-    height: 200px;
+    height: 25px;
 
 }
 #resultado1{
@@ -52,6 +46,7 @@
     width: 200px;
     margin: 4px 0;
 }
+
 
 
 
